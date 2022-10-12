@@ -15,6 +15,7 @@
         f1[0]=Number.parseInt(f1[0])
         f2[0]=Number.parseInt(f2[0]);
         var a = f1[0].value * f2[0].value;
-        alert("Ваш ответ: "+ a);
+        resalt.innerHTML="Ответ: "+a;
+     
       }
     }
